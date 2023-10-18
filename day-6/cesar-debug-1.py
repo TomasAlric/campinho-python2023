@@ -22,10 +22,16 @@ def getCipherKey():
 def encryptMessage(message, cipherKey, alphabet):
     encryptedMessage = ""
     uppercaseMessage = ""
+
+
     uppercaseMessage = message.upper()
+
+
     for currentCharacter in uppercaseMessage:
+
         position = alphabet.find(currentCharacter)
         newPosition = position + int(cipherKey)
+
         if currentCharacter in alphabet:
             encryptedMessage = encryptedMessage + alphabet[newPosition]
         else:
@@ -41,6 +47,7 @@ def decryptMessage(message, cipherKey, alphabet):
 def runCaesarCipherProgram():
     myAlphabet="ABC"
     print(f'Alphabet: {myAlphabet}')
+
     myAlphabet2 = getDoubleAlphabet(myAlphabet)
     print(f'Alphabet2: {myAlphabet2}')
     myMessage = getMessage()
