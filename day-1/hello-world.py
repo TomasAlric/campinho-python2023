@@ -1,14 +1,9 @@
-"""
-Meu primeiro código
-primeira aula do dia 17/04/2023
-"""
+# Exercício 2: escrita de seu primeiro programa em Python
 
-# meu primeiro codigo em Python
+# Imprimir a mensagem "Hello, World!"
+print("Hello, World!")
 
-# imprimir a mensagem "Hello, World!"
-print("Hello, World!");
-
-# comando para executar o arquivo python
+# Comando para executar o arquivo python
 """
 python day-1/hello-world.py
 python3 day-1/hello-world.py

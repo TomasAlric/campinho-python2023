@@ -1,57 +1,25 @@
-"""
-numeric data
-"""
-
-# mensagem de explicacao
+# Mensagem de explicação
 print("Python has three numeric types: int, float, and complex")
 
-# declarar variavel com valor inteiro
-#myValue = 3.14
-myValue=False
+# Exercício 2: apresentação do tipo de dado int
+# myValue = 1
 
-# mostrar o valor da variavel
-#print(myValue)
-print("VARIAVEL: " + str(myValue))
+# Exercício 3: apresentação do tipo de dado float
+# myValue = 3.14
 
-# exibir o tipo do dado da nossa variavel
-#print(type(myValue))
-print("TIPO: " + str(type(myValue)))
+# Exercício 4: apresentação do tipo de dado complex
+# myValue = 5j
 
-# exibir mensagem concatenada (juncao de strings)
+# Exercício 5: apresentação do tipo de dado bool
+myValue = False
+
+# Mostrar o valor da variavel
+print(myValue)
+print("Variable: " + str(myValue))
+
+# Exibir o tipo do dado da nossa variavel
+print(type(myValue))
+print("Type: " + str(type(myValue)))
+
+# Exibir mensagem concatenada (juncao de strings)
 print(str(myValue) + " is of the data type " + str(type(myValue)))
-
-
-"""
-Python has three numeric types: int, float, and complex
-VARIAVEL: 1
-TIPO: <class 'int'>
-1 is of the data type <class 'int'>
-"""
-
-"""
-Python has three numeric types: int, float, and complex
-VARIAVEL: 3.14
-TIPO: <class 'float'>
-3.14 is of the data type <class 'float'>
-"""
-
-"""
-Python has three numeric types: int, float, and complex
-VARIAVEL: true
-TIPO: <class 'str'>
-true is of the data type <class 'str'>
-"""
-
-"""
-Python has three numeric types: int, float, and complex
-VARIAVEL: True
-TIPO: <class 'bool'>
-True is of the data type <class 'bool'>
-"""
-
-"""
-Python has three numeric types: int, float, and complex
-VARIAVEL: False
-TIPO: <class 'bool'>
-False is of the data type <class 'bool'>
-"""
